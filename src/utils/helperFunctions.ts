@@ -1,3 +1,3 @@
 export const generateUniqueId = () => {
-  return Math.floor(10000 + Math.random() * 9000);
+  return Math.floor(10000 + Math.random() * 9000).toString();
 };
